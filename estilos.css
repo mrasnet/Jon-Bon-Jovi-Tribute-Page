@@ -1,0 +1,232 @@
+/*  #M8 aula #1-Exercício:
+    
+    Página Tributo
+*/
+body{
+    margin: 0; 
+    padding: 0;
+    background-color: #999;
+}
+.containerSite{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    width: 100%;
+    height: 175px;
+}
+header h1, header h3{
+    padding: 0px;
+    margin: 0px;
+}
+header h1{
+    margin-top: 35px;
+    font-size: 58px;
+    color: #ecc02e;
+}
+header h3{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #d6e96b;
+    font-style: italic;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 900px;  
+}
+.column{
+    flex-direction: column;
+}
+.container .descricao{
+    color:  #c4c3c3;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 19px; 
+    text-align: justify;
+    margin-top: 30px;
+}
+article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #163b5a;
+    width: 100%;
+    height: auto;
+}
+figure img{
+    height: 400px;
+    width: 400px;
+    object-fit: none;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+figure{
+    margin-top: 50px;
+    padding: 0px;
+}
+figcaption{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    padding: 5px;
+    background-color: #999;
+    color: #333;
+    margin-top: 0px;
+    
+}
+
+article section h1{
+    padding: 10px;
+    font-size: 33px;
+    color: #d6e96b;
+    border-top: 3px solid #999;
+    margin: 5px;
+}
+.flexrow{
+    display: flex;
+}
+.premiacaoSolo{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 10px;
+}
+.column h3{
+    font-size: 20px;
+    color: rgb(209, 212, 218);
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding: 0%;
+    border-bottom: 3px solid #a83f92;
+}
+.albums h3{
+    font-size: 35px;
+    color: rgb(209, 212, 218);
+    margin: 0px;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.albums{
+    flex: 1;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.albums figure{
+    margin: 10px;
+    padding: 0px;
+    box-shadow: 2px 2px 4px rgb(26, 25, 25);
+}
+.albums img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+}
+.albums figcaption{
+    width: 200px;
+    font-family: Helvetica, sans-serif;
+    font-size: 19px;
+    color: rgb(209, 212, 218);
+    background-color: #a83f92;
+    padding: 5px 0px 5px;
+}
+
+table ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+table .tituloTabela{
+    margin-bottom: 7px;
+    padding: 5px;
+    border-bottom: 2px solid rgb(168, 63, 146);
+}
+table{
+    margin-bottom: 5px;
+    color: rgb(209, 212, 218);
+    border-radius: 5px;
+}
+th{
+    font-size: 20px;
+    color: rgb(232, 236, 240);
+    padding-bottom: 7px;
+}
+tr{
+    line-height: 22px;
+}
+td{
+    background-color: rgb(64, 99, 163);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.backgroundAno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(64, 99, 163);
+    height: 20px;
+}
+table .anotd{
+    background-color: rgb(168, 63, 146);
+    color: #fff;
+    padding: 8px 4px 8px;
+    margin-bottom: 4px;
+    border-radius: 3px;
+}
+ 
+.wikipedia{
+    border-top: 3px solid rgb(168, 63, 146);
+    align-self: flex-start;
+    width: 400px;
+    height: 60px;
+    margin-top: auto;
+    padding-top: 10px;
+}
+.wikipedia a{
+    text-decoration: none;
+    font-size: 33px;
+    margin-top: 30px;
+    color: rgb(199, 196, 196);
+   
+}
+a:hover{
+    color: #fff;
+    transition: all 0.8s linear;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    width: 100%;
+    height: 100px;
+}
+footer .rodape{
+    width: 900px;
+}
+.rodapeInfo{
+    font-size: 19px;
+    font-family: 'Times New Roman',  sans-serif;
+    color: #555454;
+    text-shadow: 1px 1px 1.5px #928d8d;
+    border-top: 1px solid #555454 ;
+    margin-top: 44px;
+    padding: 8px;
+}
